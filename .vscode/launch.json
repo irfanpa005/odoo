@@ -1,0 +1,32 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Odoo 18 Debug",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/odoo-bin",
+            "args": [
+                "-c", "${workspaceFolder}/odoo.conf",
+                "--dev", "all"
+            ],
+            "console": "integratedTerminal",
+            "justMyCode": false,
+            "gevent": true
+        },
+        {
+            "name": "Odoo 18 Debug (Specific DB)",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/odoo-bin",
+            "args": [
+                "-c", "${workspaceFolder}/odoo.conf",
+                "-d", "odoo_dev",
+                "--dev", "all"
+            ],
+            "console": "integratedTerminal",
+            "justMyCode": false,
+            "gevent": true
+        }
+    ]
+}

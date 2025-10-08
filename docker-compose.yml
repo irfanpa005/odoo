@@ -1,0 +1,20 @@
+services:
+  db:
+    image: postgres:15
+    container_name: odoo_18_db
+    environment:
+      POSTGRES_DB: odoo_db
+      POSTGRES_USER: odoo
+      POSTGRES_PASSWORD: odoo
+    ports:
+      - "5436:5432"  # Add this for host access
+    volumes:
+      - dbdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U odoo"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+
+volumes:
+  dbdata:

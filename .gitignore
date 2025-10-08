@@ -7,6 +7,8 @@ _build/
 !.github
 !.mailmap
 !.weblate.json
+!.vscode/
+!.vscode/*
 # compiled python files
 *.py[co]
 __pycache__/
@@ -50,3 +52,5 @@ package.json
 /man/
 /share/
 /src/
+
+venv

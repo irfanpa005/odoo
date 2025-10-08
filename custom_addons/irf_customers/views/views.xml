@@ -1,0 +1,44 @@
+<odoo>
+  <data>
+    <!-- List View -->
+    <record model="ir.ui.view" id="irf_customers_list">
+      <field name="name">irf_customers list</field>
+      <field name="model">irf_customers.irf_customers</field>
+      <field name="arch" type="xml">
+        <list>
+          <field name="name"/>
+          <field name="value"/>
+          <field name="value2"/>
+        </list>
+      </field>
+    </record>
+
+
+    <!-- Form View -->
+    <record model="ir.ui.view" id="irf_customers_form">
+      <field name="name">irf_customers form</field>
+      <field name="model">irf_customers.irf_customers</field>
+      <field name="arch" type="xml">
+        <form>
+          <field name="name" placeholder="Enter customer name"/>
+          <field name="value" placeholder="Enter numeric value"/>
+          <field name="value2" readonly="1"/>
+          <field name="description"/>
+        </form>
+      </field>
+    </record>
+
+    <!-- Window Action -->
+    <record model="ir.actions.act_window" id="irf_customers_action_window">
+      <field name="name">IRF Customers</field>
+      <field name="res_model">irf_customers.irf_customers</field>
+      <field name="view_mode">list,form</field>
+    </record>
+
+    <!-- Menu -->
+    <menuitem name="IRF Customers" id="irf_customers_menu_root"/>
+    <menuitem name="Customers" id="irf_customers_menu_1" parent="irf_customers_menu_root"/>
+    <menuitem name="List" id="irf_customers_menu_1_list" parent="irf_customers_menu_1"
+        action="irf_customers_action_window"/>
+  </data>
+</odoo>
