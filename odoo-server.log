@@ -57,3 +57,829 @@
 2025-10-14 05:55:48,058 7129 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'CRM: enrich leads (IAP)' (22) done in 0.008s 
 2025-10-14 05:55:48,065 7129 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'CRM: enrich leads (IAP)' (22) processed 0 records, 0 records remaining 
 2025-10-14 05:55:48,070 7129 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'CRM: enrich leads (IAP)' (22) completed 
+2025-10-14 06:03:18,754 7129 INFO odoo_db odoo.addons.base.models.res_device: User 2 inserts device log (QhtBrwS5O1PwkURzUK81xvtbDgsIC5aDERZ6M2KpEc) 
+2025-10-14 06:03:18,766 7129 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 06:03:18] "GET /websocket?version=18.0-5 HTTP/1.1" 101 - 2 0.004 0.019
+2025-10-14 06:03:18,808 7129 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 06:03:18] "POST /bus/has_missed_notifications HTTP/1.1" 200 - 2 0.003 0.006
+2025-10-14 06:14:49,045 7129 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) starting 
+2025-10-14 06:14:49,163 7129 INFO odoo_db odoo.addons.base.models.ir_attachment: filestore gc 0 checked, 0 removed 
+2025-10-14 06:14:49,330 7129 INFO odoo_db odoo.models.unlink: User #1 deleted res.config.settings records with IDs: [3, 4, 5] 
+2025-10-14 06:14:49,341 7129 INFO odoo_db odoo.addons.base.models.res_users: GC'd 27 user log entries 
+2025-10-14 06:14:49,352 7129 INFO odoo_db odoo.models.unlink: User #1 deleted res.users.identitycheck records with IDs: [1] 
+2025-10-14 06:14:49,365 7129 INFO odoo_db odoo.addons.base.models.res_users: GC 'res.users.apikeys' delete 1 entries 
+2025-10-14 06:14:49,373 7129 INFO odoo_db odoo.addons.base.models.res_device: GC device logs delete 3 entries 
+2025-10-14 06:14:49,378 7129 INFO odoo_db odoo.addons.base.models.res_device: GC device logs delete 0 entries 
+2025-10-14 06:14:49,384 7129 INFO odoo_db odoo.models.unlink: User #1 deleted base.module.update records with IDs: [22] 
+2025-10-14 06:14:49,411 7129 INFO odoo_db odoo.addons.base.models.res_users: GC 'auth_totp.device' delete 0 entries 
+2025-10-14 06:14:49,603 7129 INFO odoo_db odoo.addons.sms.models.sms_sms: GC'd 0 sms marked for deletion 
+2025-10-14 06:14:49,798 7129 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) done in 0.752s 
+2025-10-14 06:14:49,806 7129 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) processed 0 records, 0 records remaining 
+2025-10-14 06:14:49,812 7129 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) completed 
+2025-10-14 06:14:49,830 7129 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'Base: Portal Users Deletion' (2) starting 
+2025-10-14 06:14:49,835 7129 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'Base: Portal Users Deletion' (2) done in 0.005s 
+2025-10-14 06:14:49,840 7129 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'Base: Portal Users Deletion' (2) processed 0 records, 0 records remaining 
+2025-10-14 06:14:49,845 7129 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'Base: Portal Users Deletion' (2) completed 
+2025-10-14 06:54:02,551 7129 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) starting 
+2025-10-14 06:54:02,624 7129 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) done in 0.065s 
+2025-10-14 06:54:02,636 7129 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) processed 0 records, 0 records remaining 
+2025-10-14 06:54:02,663 7129 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) completed 
+2025-10-14 06:54:02,679 7129 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) starting 
+2025-10-14 06:54:02,701 7129 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) done in 0.022s 
+2025-10-14 06:54:02,706 7129 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) processed 0 records, 0 records remaining 
+2025-10-14 06:54:02,711 7129 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) completed 
+2025-10-14 06:54:02,725 7129 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (14) starting 
+2025-10-14 06:54:02,729 7129 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (14) done in 0.005s 
+2025-10-14 06:54:02,733 7129 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (14) processed 0 records, 0 records remaining 
+2025-10-14 06:54:02,736 7129 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (14) completed 
+2025-10-14 06:54:52,058 7129 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (15) starting 
+2025-10-14 06:54:52,202 7129 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (15) done in 0.143s 
+2025-10-14 06:54:52,217 7129 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (15) processed 0 records, 0 records remaining 
+2025-10-14 06:54:52,221 7129 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (15) completed 
+2025-10-14 06:54:52,264 7129 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (16) starting 
+2025-10-14 06:54:52,279 7129 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (16) done in 0.014s 
+2025-10-14 06:54:52,285 7129 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (16) processed 0 records, 0 records remaining 
+2025-10-14 06:54:52,289 7129 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (16) completed 
+2025-10-14 06:55:52,370 7129 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'CRM: enrich leads (IAP)' (22) starting 
+2025-10-14 06:55:52,403 7129 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'CRM: enrich leads (IAP)' (22) done in 0.032s 
+2025-10-14 06:55:52,408 7129 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'CRM: enrich leads (IAP)' (22) processed 0 records, 0 records remaining 
+2025-10-14 06:55:52,412 7129 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'CRM: enrich leads (IAP)' (22) completed 
+2025-10-14 07:27:20,659 7129 INFO odoo_db odoo.addons.base.models.res_device: User 2 inserts device log (tf5NV51EV75cn2gZWETAfRU-od3mg4_WRevox-D-ol) 
+2025-10-14 07:27:21,492 7129 INFO odoo_db odoo.addons.base.models.res_users: Login successful for db:odoo_db login:admin from 127.0.0.1 
+2025-10-14 07:27:21,628 7129 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 07:27:21] "GET /send_request?model=estate.property HTTP/1.1" 200 - 25 0.072 0.986
+2025-10-14 07:27:52,966 7129 INFO odoo_db odoo.addons.base.models.res_users: Login successful for db:odoo_db login:admin from 127.0.0.1 
+2025-10-14 07:27:58,732 7129 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 07:27:58] "GET /send_request?model=estate.property HTTP/1.1" 200 - 24 0.037 15.863
+2025-10-14 07:28:12,696 7129 INFO odoo_db odoo.addons.base.models.res_users: Login successful for db:odoo_db login:admin from 127.0.0.1 
+2025-10-14 07:28:17,272 7129 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 07:28:17] "GET /send_request?model=estate.property&id=8 HTTP/1.1" 200 - 24 0.033 8.837
+2025-10-14 07:32:08,658 7129 INFO odoo_db odoo.addons.base.models.res_device: User 2 inserts device log (QhtBrwS5O1PwkURzUK81xvtbDgsIC5aDERZ6M2KpEc) 
+2025-10-14 07:32:08,800 7129 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 07:32:08] "GET /websocket?version=18.0-5 HTTP/1.1" 101 - 2 0.079 0.208
+2025-10-14 07:32:08,999 7129 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 07:32:08] "POST /bus/has_missed_notifications HTTP/1.1" 200 - 2 0.004 0.027
+2025-10-14 08:38:46,443 1304 INFO ? odoo: Odoo version 18.0 
+2025-10-14 08:38:46,444 1304 INFO ? odoo: Using configuration file at /home/irfanpa/dev/odoo/odoo.conf 
+2025-10-14 08:38:46,444 1304 INFO ? odoo: addons paths: ['/home/irfanpa/dev/odoo/odoo/addons', '/home/irfanpa/.local/share/Odoo/addons/18.0', '/home/irfanpa/dev/odoo/addons', '/home/irfanpa/dev/odoo/custom_addons'] 
+2025-10-14 08:38:46,445 1304 INFO ? odoo: database: odoo@127.0.0.1:5436 
+2025-10-14 08:38:46,725 1304 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/bin/wkhtmltopdf 
+2025-10-14 08:38:46,996 1304 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltoimage binary at /usr/bin/wkhtmltoimage 
+2025-10-14 08:38:47,542 1304 WARNING ? odoo.service.server: 'inotify' module not installed. Code autoreload feature is disabled 
+2025-10-14 08:38:47,544 1304 INFO ? odoo.service.server: HTTP service (werkzeug) running on IRFAN.localdomain:8018 
+2025-10-14 08:38:47,549 1304 INFO ? odoo.sql_db: Connection to the database failed 
+2025-10-14 08:38:47,623 1304 INFO ? odoo.sql_db: Connection to the database failed 
+2025-10-14 08:39:17,735 1763 INFO ? odoo: Odoo version 18.0 
+2025-10-14 08:39:17,736 1763 INFO ? odoo: Using configuration file at /home/irfanpa/dev/odoo/odoo.conf 
+2025-10-14 08:39:17,736 1763 INFO ? odoo: addons paths: ['/home/irfanpa/dev/odoo/odoo/addons', '/home/irfanpa/.local/share/Odoo/addons/18.0', '/home/irfanpa/dev/odoo/addons', '/home/irfanpa/dev/odoo/custom_addons'] 
+2025-10-14 08:39:17,736 1763 INFO ? odoo: database: odoo@127.0.0.1:5436 
+2025-10-14 08:39:17,983 1763 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/bin/wkhtmltopdf 
+2025-10-14 08:39:18,037 1763 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltoimage binary at /usr/bin/wkhtmltoimage 
+2025-10-14 08:39:18,688 1763 WARNING ? odoo.service.server: 'inotify' module not installed. Code autoreload feature is disabled 
+2025-10-14 08:39:18,690 1763 INFO ? odoo.service.server: HTTP service (werkzeug) running on IRFAN.localdomain:8018 
+2025-10-14 08:39:26,581 1763 INFO ? odoo.modules.loading: loading 1 modules... 
+2025-10-14 08:39:26,661 1763 INFO ? odoo.modules.loading: 1 modules loaded in 0.07s, 0 queries (+0 extra) 
+2025-10-14 08:39:26,731 1763 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'irf_customers', defaulting to LGPL-3 
+2025-10-14 08:39:26,768 1763 INFO ? odoo.modules.loading: loading 67 modules... 
+2025-10-14 08:39:28,720 1763 INFO ? odoo.modules.loading: 67 modules loaded in 1.95s, 0 queries (+0 extra) 
+2025-10-14 08:39:29,312 1763 INFO ? odoo.modules.loading: Modules loaded. 
+2025-10-14 08:39:29,333 1763 INFO ? odoo.modules.registry: Registry loaded in 2.915s 
+2025-10-14 08:39:29,336 1763 INFO odoo_db odoo.addons.base.models.ir_http: Generating routing map for key None 
+2025-10-14 08:39:29,447 1763 INFO odoo_db odoo.addons.base.models.res_device: User 2 inserts device log (QhtBrwS5O1PwkURzUK81xvtbDgsIC5aDERZ6M2KpEc) 
+2025-10-14 08:39:29,479 1763 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:39:29] "GET /web/login?redirect=/odoo? HTTP/1.1" 303 - 24 0.210 2.872
+2025-10-14 08:39:30,290 1763 WARNING odoo_db odoo.modules.module: Missing `license` key in manifest for 'irf_customers', defaulting to LGPL-3 
+2025-10-14 08:39:31,117 1763 WARNING odoo_db odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc="title or 'Odoo'" in template 180. Replace by @t-out 
+2025-10-14 08:39:31,120 1763 WARNING odoo_db odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='request.csrf_token(None)' in template 180. Replace by @t-out 
+2025-10-14 08:39:31,121 1763 WARNING odoo_db odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='debug' in template 180. Replace by @t-out 
+2025-10-14 08:39:31,132 1763 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:39:31] "GET /odoo HTTP/1.1" 200 - 104 0.253 1.345
+2025-10-14 08:39:31,871 1763 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:39:31] "GET /bus/websocket_worker_bundle?v=18.0-5 HTTP/1.1" 304 - 4 0.015 0.079
+2025-10-14 08:39:31,941 1763 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:39:31] "GET /websocket?version=18.0-5 HTTP/1.1" 101 - 1 0.003 0.045
+2025-10-14 08:39:32,213 1763 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:39:32] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.002 0.053
+2025-10-14 08:39:32,368 1763 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:39:32] "POST /mail/data HTTP/1.1" 200 - 64 0.313 0.269
+2025-10-14 08:39:32,453 1763 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2025-10-14 08:39:34,880 1763 INFO ? werkzeug: 127.0.0.1 - - [14/Oct/2025 08:39:34] "GET /web/static/img/favicon.ico HTTP/1.1" 200 - 0 0.000 3.276
+2025-10-14 08:39:34,880 1763 INFO ? werkzeug: 127.0.0.1 - - [14/Oct/2025 08:39:34] "GET /web/static/img/odoo-icon-ios.png HTTP/1.1" 200 - 0 0.000 3.279
+2025-10-14 08:39:34,914 1763 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:39:34] "POST /web/dataset/call_kw/res.users/search_read HTTP/1.1" 200 - 11 0.011 3.119
+2025-10-14 08:39:35,098 1763 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:39:35] "POST /web/action/load HTTP/1.1" 200 - 9 0.035 0.035
+2025-10-14 08:39:35,127 1763 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:39:35] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 20 0.041 0.059
+2025-10-14 08:39:35,240 1763 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:39:35] "POST /web/dataset/call_kw/estate.property/get_views HTTP/1.1" 200 - 22 0.029 0.069
+2025-10-14 08:39:35,289 1763 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:39:35] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 1 0.001 0.016
+2025-10-14 08:39:35,299 1763 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:39:35] "POST /web/dataset/call_kw/estate.property/web_search_read HTTP/1.1" 200 - 4 0.014 0.017
+2025-10-14 08:39:52,832 1763 INFO ? werkzeug: 127.0.0.1 - - [14/Oct/2025 08:39:52] "GET /base/static/description/modules.png HTTP/1.1" 200 - 0 0.000 0.030
+2025-10-14 08:39:52,842 1763 INFO ? werkzeug: 127.0.0.1 - - [14/Oct/2025 08:39:52] "GET /base/static/description/settings.png HTTP/1.1" 200 - 0 0.000 0.029
+2025-10-14 08:39:55,159 1763 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:39:55] "POST /web/action/load HTTP/1.1" 200 - 9 0.021 0.040
+2025-10-14 08:39:55,172 1763 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:39:55] "POST /web/action/load HTTP/1.1" 200 - 10 0.028 0.034
+2025-10-14 08:39:57,122 1763 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:39:57] "POST /web/dataset/call_kw/res.config.settings/get_views HTTP/1.1" 200 - 436 0.358 1.580
+2025-10-14 08:39:57,481 1763 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:39:57] "POST /web/dataset/call_kw/res.config.settings/onchange HTTP/1.1" 200 - 146 0.129 0.195
+2025-10-14 08:39:57,671 1763 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:39:57] "POST /base_setup/demo_active HTTP/1.1" 200 - 3 0.004 0.010
+2025-10-14 08:39:57,710 1763 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:39:57] "POST /base_setup/data HTTP/1.1" 200 - 6 0.009 0.010
+2025-10-14 08:40:00,657 1763 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:40:00] "POST /web/dataset/call_kw/estate.property/web_search_read HTTP/1.1" 200 - 4 0.005 0.011
+2025-10-14 08:40:18,950 1763 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) starting 
+2025-10-14 08:40:18,962 1763 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) done in 0.013s 
+2025-10-14 08:40:18,972 1763 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) processed 0 records, 0 records remaining 
+2025-10-14 08:40:18,985 1763 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) completed 
+2025-10-14 08:40:19,008 1763 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (15) starting 
+2025-10-14 08:40:19,037 1763 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (15) done in 0.029s 
+2025-10-14 08:40:19,045 1763 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (15) processed 0 records, 0 records remaining 
+2025-10-14 08:40:19,054 1763 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (15) completed 
+2025-10-14 08:40:19,078 1763 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (16) starting 
+2025-10-14 08:40:19,090 1763 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (16) done in 0.012s 
+2025-10-14 08:40:19,097 1763 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (16) processed 0 records, 0 records remaining 
+2025-10-14 08:40:19,107 1763 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (16) completed 
+2025-10-14 08:40:19,128 1763 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'Digest Emails' (17) starting 
+2025-10-14 08:40:19,137 1763 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'Digest Emails' (17) done in 0.009s 
+2025-10-14 08:40:19,145 1763 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'Digest Emails' (17) processed 0 records, 0 records remaining 
+2025-10-14 08:40:19,154 1763 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'Digest Emails' (17) completed 
+2025-10-14 08:40:19,177 1763 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'CRM: enrich leads (IAP)' (22) starting 
+2025-10-14 08:40:19,190 1763 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'CRM: enrich leads (IAP)' (22) done in 0.012s 
+2025-10-14 08:40:19,197 1763 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'CRM: enrich leads (IAP)' (22) processed 0 records, 0 records remaining 
+2025-10-14 08:40:19,209 1763 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'CRM: enrich leads (IAP)' (22) completed 
+2025-10-14 08:40:19,232 1763 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'Send invoices automatically' (25) starting 
+2025-10-14 08:40:19,244 1763 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'Send invoices automatically' (25) done in 0.012s 
+2025-10-14 08:40:19,252 1763 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'Send invoices automatically' (25) processed 0 records, 0 records remaining 
+2025-10-14 08:40:19,263 1763 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'Send invoices automatically' (25) completed 
+2025-10-14 08:40:19,285 1763 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'Sales: Send pending emails' (27) starting 
+2025-10-14 08:40:19,294 1763 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'Sales: Send pending emails' (27) done in 0.009s 
+2025-10-14 08:40:19,303 1763 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'Sales: Send pending emails' (27) processed 0 records, 0 records remaining 
+2025-10-14 08:40:19,314 1763 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'Sales: Send pending emails' (27) completed 
+2025-10-14 08:40:19,336 1763 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) starting 
+2025-10-14 08:40:19,354 1763 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) done in 0.018s 
+2025-10-14 08:40:19,364 1763 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) processed 0 records, 0 records remaining 
+2025-10-14 08:40:19,379 1763 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) completed 
+2025-10-14 08:40:19,406 1763 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (14) starting 
+2025-10-14 08:40:19,416 1763 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (14) done in 0.010s 
+2025-10-14 08:40:19,429 1763 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (14) processed 0 records, 0 records remaining 
+2025-10-14 08:40:19,441 1763 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (14) completed 
+2025-10-14 08:41:21,305 1763 INFO odoo_db odoo.addons.base.models.res_device: User 2 inserts device log (XgSf0q6GJAejhyKsKQ7-a0tQtni-EANnhtIVYr0zlX) 
+2025-10-14 08:41:21,313 1763 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:41:21] "GET /estate/estate HTTP/1.1" 200 - 3 0.003 0.018
+2025-10-14 08:41:47,964 1763 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:41:47] "POST /web/action/load HTTP/1.1" 200 - 9 0.009 0.023
+2025-10-14 08:41:48,046 1763 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:41:48] "POST /web/dataset/call_kw/connection.api/get_views HTTP/1.1" 200 - 22 0.019 0.050
+2025-10-14 08:41:48,077 1763 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:41:48] "POST /web/dataset/call_kw/connection.api/web_search_read HTTP/1.1" 200 - 5 0.007 0.011
+2025-10-14 08:41:54,083 1763 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:41:54] "POST /web/action/load HTTP/1.1" 200 - 10 0.016 0.031
+2025-10-14 08:41:54,107 1763 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:41:54] "POST /web/action/load HTTP/1.1" 200 - 11 0.020 0.039
+2025-10-14 08:41:54,362 1763 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:41:54] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 58 0.057 0.185
+2025-10-14 08:41:54,395 1763 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:41:54] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 1 0.002 0.014
+2025-10-14 08:41:54,573 1763 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:41:54] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 76 0.106 0.084
+2025-10-14 08:41:54,574 1763 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:41:54] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 6 0.011 0.167
+2025-10-14 08:41:54,982 1763 INFO ? werkzeug: 127.0.0.1 - - [14/Oct/2025 08:41:54] "GET /base/static/img/icons/sign.png HTTP/1.1" 200 - 0 0.000 0.004
+2025-10-14 08:41:55,000 1763 INFO ? werkzeug: 127.0.0.1 - - [14/Oct/2025 08:41:55] "GET /base/static/img/icons/helpdesk.png HTTP/1.1" 200 - 0 0.000 0.016
+2025-10-14 08:41:55,007 1763 INFO ? werkzeug: 127.0.0.1 - - [14/Oct/2025 08:41:55] "GET /website_slides/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.013
+2025-10-14 08:41:55,020 1763 INFO ? werkzeug: 127.0.0.1 - - [14/Oct/2025 08:41:55] "GET /base/static/img/icons/sale_subscription.png HTTP/1.1" 200 - 0 0.000 0.032
+2025-10-14 08:41:55,021 1763 INFO ? werkzeug: 127.0.0.1 - - [14/Oct/2025 08:41:55] "GET /base/static/img/icons/quality_control.png HTTP/1.1" 200 - 0 0.000 0.030
+2025-10-14 08:41:55,039 1763 INFO ? werkzeug: 127.0.0.1 - - [14/Oct/2025 08:41:55] "GET /website_event/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.020
+2025-10-14 08:41:55,041 1763 INFO ? werkzeug: 127.0.0.1 - - [14/Oct/2025 08:41:55] "GET /base/static/img/icons/planning.png HTTP/1.1" 200 - 0 0.000 0.030
+2025-10-14 08:41:55,053 1763 INFO ? werkzeug: 127.0.0.1 - - [14/Oct/2025 08:41:55] "GET /base/static/img/icons/mrp_plm.png HTTP/1.1" 200 - 0 0.000 0.028
+2025-10-14 08:41:55,055 1763 INFO ? werkzeug: 127.0.0.1 - - [14/Oct/2025 08:41:55] "GET /base/static/img/icons/hr_appraisal.png HTTP/1.1" 200 - 0 0.000 0.015
+2025-10-14 08:41:55,058 1763 INFO ? werkzeug: 127.0.0.1 - - [14/Oct/2025 08:41:55] "GET /base/static/img/icons/social.png HTTP/1.1" 200 - 0 0.000 0.025
+2025-10-14 08:41:55,070 1763 INFO ? werkzeug: 127.0.0.1 - - [14/Oct/2025 08:41:55] "GET /base/static/img/icons/voip.png HTTP/1.1" 200 - 0 0.000 0.007
+2025-10-14 08:41:55,080 1763 INFO ? werkzeug: 127.0.0.1 - - [14/Oct/2025 08:41:55] "GET /lunch/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.015
+2025-10-14 08:41:55,082 1763 INFO ? werkzeug: 127.0.0.1 - - [14/Oct/2025 08:41:55] "GET /base/static/img/icons/sale_amazon.png HTTP/1.1" 200 - 0 0.000 0.008
+2025-10-14 08:41:55,087 1763 INFO ? werkzeug: 127.0.0.1 - - [14/Oct/2025 08:41:55] "GET /hr_contract/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.010
+2025-10-14 08:42:05,952 1763 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:42:05] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 8 0.014 0.142
+2025-10-14 08:42:05,969 1763 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:42:05] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 75 0.108 0.068
+2025-10-14 08:42:08,266 1763 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:42:08] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 75 0.072 0.072
+2025-10-14 08:42:08,305 1763 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:42:08] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 6 0.008 0.021
+2025-10-14 08:42:12,175 1763 INFO odoo_db odoo.addons.base.models.ir_module: ALLOW access to module.button_uninstall_wizard on ['Odoo rest API'] to user admin #2 via 127.0.0.1 
+2025-10-14 08:42:12,179 1763 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:42:12] "POST /web/dataset/call_button/ir.module.module/button_uninstall_wizard HTTP/1.1" 200 - 3 0.004 0.023
+2025-10-14 08:42:12,280 1763 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:42:12] "POST /web/dataset/call_kw/base.module.uninstall/get_views HTTP/1.1" 200 - 16 0.017 0.060
+2025-10-14 08:42:12,378 1763 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:42:12] "POST /web/dataset/call_kw/base.module.uninstall/onchange HTTP/1.1" 200 - 11 0.029 0.051
+2025-10-14 08:42:15,348 1763 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:42:15] "POST /web/dataset/call_kw/base.module.uninstall/web_save HTTP/1.1" 200 - 14 0.020 0.043
+2025-10-14 08:42:15,395 1763 INFO odoo_db odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_uninstall on ['Odoo rest API'] to user admin #2 via 127.0.0.1 
+2025-10-14 08:42:15,395 1763 INFO odoo_db odoo.addons.base.models.ir_module: User #2 triggered module uninstallation 
+2025-10-14 08:42:15,396 1763 INFO odoo_db odoo.addons.base.models.ir_module: ALLOW access to module.button_uninstall on ['Odoo rest API'] to user admin #2 via 127.0.0.1 
+2025-10-14 08:42:15,467 1763 INFO odoo_db odoo.modules.loading: loading 1 modules... 
+2025-10-14 08:42:15,490 1763 INFO odoo_db odoo.modules.loading: 1 modules loaded in 0.02s, 0 queries (+0 extra) 
+2025-10-14 08:42:15,580 1763 INFO odoo_db odoo.modules.loading: updating modules list 
+2025-10-14 08:42:15,583 1763 INFO odoo_db odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 127.0.0.1 
+2025-10-14 08:42:17,973 1763 INFO odoo_db odoo.modules.loading: loading 67 modules... 
+2025-10-14 08:42:18,146 1763 INFO odoo_db odoo.modules.loading: 67 modules loaded in 0.17s, 0 queries (+0 extra) 
+2025-10-14 08:42:19,144 1763 INFO odoo_db odoo.addons.base.models.ir_module: ALLOW access to module.module_uninstall on ['Odoo rest API'] to user __system__ #1 via 127.0.0.1 
+2025-10-14 08:42:19,158 1763 INFO odoo_db odoo.addons.base.models.ir_model: Deleting ir.ui.menu(310, 309) 
+2025-10-14 08:42:19,344 1763 INFO odoo_db odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [37763, 37762] 
+2025-10-14 08:42:19,388 1763 INFO odoo_db odoo.models.unlink: User #1 deleted ir.attachment records with IDs: [861] 
+2025-10-14 08:42:19,391 1763 INFO odoo_db odoo.models.unlink: User #1 deleted ir.ui.menu records with IDs: [310, 309] 
+2025-10-14 08:42:19,394 1763 INFO odoo_db odoo.addons.base.models.ir_model: Deleting ir.actions.act_window(433,) 
+2025-10-14 08:42:19,427 1763 INFO odoo_db odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [37761] 
+2025-10-14 08:42:19,427 1763 INFO odoo_db odoo.models.unlink: User #1 deleted ir.actions.act_window records with IDs: [433] 
+2025-10-14 08:42:19,431 1763 INFO odoo_db odoo.addons.base.models.ir_model: Deleting ir.ui.view(1169, 1168, 1167) 
+2025-10-14 08:42:19,612 1763 INFO odoo_db odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [37759, 37760, 37758] 
+2025-10-14 08:42:19,613 1763 INFO odoo_db odoo.models.unlink: User #1 deleted ir.ui.view records with IDs: [1169, 1168, 1167] 
+2025-10-14 08:42:19,617 1763 INFO odoo_db odoo.addons.base.models.ir_model: Deleting ir.model.access(670,) 
+2025-10-14 08:42:19,634 1763 INFO odoo_db odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [37757] 
+2025-10-14 08:42:19,634 1763 INFO odoo_db odoo.models.unlink: User #1 deleted ir.model.access records with IDs: [670] 
+2025-10-14 08:42:19,659 1763 INFO odoo_db odoo.addons.base.models.ir_model: Deleting ir.model.fields(7480, 7475, 7473, 7472, 7471, 7470, 7469) 
+2025-10-14 08:42:19,913 1763 INFO odoo_db odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [37728, 37726, 37723, 37724, 37725, 37722, 37733] 
+2025-10-14 08:42:19,913 1763 INFO odoo_db odoo.models.unlink: User #1 deleted ir.model.fields records with IDs: [7480, 7475, 7473, 7472, 7471, 7470, 7469] 
+2025-10-14 08:42:19,925 1763 INFO odoo_db odoo.addons.base.models.ir_model: Deleting ir.model(578,) 
+2025-10-14 08:42:20,026 1763 INFO odoo_db odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [37721] 
+2025-10-14 08:42:20,027 1763 INFO odoo_db odoo.models.unlink: User #1 deleted ir.model records with IDs: [578] 
+2025-10-14 08:42:20,028 1763 INFO odoo_db odoo.addons.base.models.ir_model: ir.model.data could not be deleted ([]) 
+2025-10-14 08:42:20,046 1763 INFO odoo_db odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [37763, 37762, 37761, 37760, 37759, 37758, 37757, 37733, 37732, 37731, 37730, 37729, 37728, 37727, 37726, 37725, 37724, 37723, 37722, 37721, 37720] 
+2025-10-14 08:42:20,090 1763 INFO odoo_db odoo.modules.loading: Reloading registry once more after uninstalling modules 
+2025-10-14 08:42:20,136 1763 INFO odoo_db odoo.modules.loading: loading 1 modules... 
+2025-10-14 08:42:20,167 1763 INFO odoo_db odoo.modules.loading: 1 modules loaded in 0.03s, 0 queries (+0 extra) 
+2025-10-14 08:42:20,267 1763 INFO odoo_db odoo.modules.loading: updating modules list 
+2025-10-14 08:42:20,273 1763 INFO odoo_db odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 127.0.0.1 
+2025-10-14 08:42:22,863 1763 INFO odoo_db odoo.modules.loading: loading 66 modules... 
+2025-10-14 08:42:23,021 1763 INFO odoo_db odoo.modules.loading: 66 modules loaded in 0.16s, 0 queries (+0 extra) 
+2025-10-14 08:42:25,385 1763 INFO odoo_db odoo.modules.loading: Modules loaded. 
+2025-10-14 08:42:25,402 1763 INFO odoo_db odoo.modules.registry: Registry changed, signaling through the database 
+2025-10-14 08:42:25,405 1763 INFO odoo_db odoo.modules.registry: Registry loaded in 5.314s 
+2025-10-14 08:42:25,412 1763 INFO odoo_db odoo.modules.registry: Registry changed, signaling through the database 
+2025-10-14 08:42:25,414 1763 INFO odoo_db odoo.modules.registry: Registry loaded in 9.988s 
+2025-10-14 08:42:25,415 1763 INFO odoo_db odoo.addons.base.models.ir_module: getting next ir.actions.todo() 
+2025-10-14 08:42:25,425 1763 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:42:25] "POST /web/dataset/call_button/base.module.uninstall/action_uninstall HTTP/1.1" 200 - 4432 3.476 6.586
+2025-10-14 08:42:25,451 1763 INFO odoo_db odoo.addons.base.models.ir_http: Generating routing map for key None 
+2025-10-14 08:42:26,591 1763 WARNING odoo_db odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc="title or 'Odoo'" in template 180. Replace by @t-out 
+2025-10-14 08:42:26,594 1763 WARNING odoo_db odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='request.csrf_token(None)' in template 180. Replace by @t-out 
+2025-10-14 08:42:26,595 1763 WARNING odoo_db odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='debug' in template 180. Replace by @t-out 
+2025-10-14 08:42:26,605 1763 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:42:26] "GET /odoo HTTP/1.1" 200 - 102 0.082 1.076
+2025-10-14 08:42:27,276 1763 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:42:27] "GET /bus/websocket_worker_bundle?v=18.0-5 HTTP/1.1" 304 - 4 0.010 0.022
+2025-10-14 08:42:27,536 1763 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:42:27] "GET /websocket?version=18.0-5 HTTP/1.1" 101 - 1 0.005 0.073
+2025-10-14 08:42:27,539 1763 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:42:27] "POST /web/dataset/call_kw/res.users/search_read HTTP/1.1" 200 - 11 0.255 0.036
+2025-10-14 08:42:27,770 1763 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:42:27] "POST /mail/data HTTP/1.1" 200 - 63 0.142 0.377
+2025-10-14 08:42:27,773 1763 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:42:27] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.009 0.085
+2025-10-14 08:42:27,797 1763 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:42:27] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 20 0.068 0.066
+2025-10-14 08:42:27,806 1763 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:42:27] "POST /web/action/load HTTP/1.1" 200 - 9 0.041 0.097
+2025-10-14 08:42:27,922 1763 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:42:27] "POST /web/dataset/call_kw/estate.property/get_views HTTP/1.1" 200 - 22 0.021 0.062
+2025-10-14 08:42:27,956 1763 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:42:27] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 1 0.001 0.011
+2025-10-14 08:42:27,961 1763 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:42:27] "POST /web/dataset/call_kw/estate.property/web_search_read HTTP/1.1" 200 - 4 0.008 0.010
+2025-10-14 08:42:36,170 1763 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:42:36] "POST /web/action/load HTTP/1.1" 200 - 10 0.015 0.027
+2025-10-14 08:42:36,189 1763 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:42:36] "POST /web/action/load HTTP/1.1" 200 - 11 0.017 0.034
+2025-10-14 08:42:36,406 1763 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:42:36] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 58 0.046 0.158
+2025-10-14 08:42:36,438 1763 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:42:36] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 1 0.001 0.013
+2025-10-14 08:42:36,551 1763 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:42:36] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 6 0.010 0.106
+2025-10-14 08:42:36,615 1763 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:42:36] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 76 0.108 0.082
+2025-10-14 08:42:40,286 1763 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:42:40] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 75 0.083 0.111
+2025-10-14 08:42:40,319 1763 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:42:40] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 6 0.007 0.016
+2025-10-14 08:42:43,207 1763 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:42:43] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 75 0.069 0.073
+2025-10-14 08:42:43,246 1763 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:42:43] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 6 0.009 0.022
+2025-10-14 08:42:48,517 1763 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:42:48] "GET /estate/estate HTTP/1.1" 200 - 2 0.002 0.008
+2025-10-14 08:42:57,798 2721 INFO ? odoo: Odoo version 18.0 
+2025-10-14 08:42:57,799 2721 INFO ? odoo: Using configuration file at /home/irfanpa/dev/odoo/odoo.conf 
+2025-10-14 08:42:57,799 2721 INFO ? odoo: addons paths: ['/home/irfanpa/dev/odoo/odoo/addons', '/home/irfanpa/.local/share/Odoo/addons/18.0', '/home/irfanpa/dev/odoo/addons', '/home/irfanpa/dev/odoo/custom_addons'] 
+2025-10-14 08:42:57,799 2721 INFO ? odoo: database: odoo@127.0.0.1:5436 
+2025-10-14 08:42:58,091 2721 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/bin/wkhtmltopdf 
+2025-10-14 08:42:58,418 2721 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltoimage binary at /usr/bin/wkhtmltoimage 
+2025-10-14 08:42:58,930 2721 WARNING ? odoo.service.server: 'inotify' module not installed. Code autoreload feature is disabled 
+2025-10-14 08:42:58,932 2721 INFO ? odoo.service.server: HTTP service (werkzeug) running on IRFAN.localdomain:8018 
+2025-10-14 08:43:03,200 2721 INFO ? odoo.modules.loading: loading 1 modules... 
+2025-10-14 08:43:03,221 2721 INFO ? odoo.modules.loading: 1 modules loaded in 0.02s, 0 queries (+0 extra) 
+2025-10-14 08:43:03,244 2721 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'irf_customers', defaulting to LGPL-3 
+2025-10-14 08:43:03,263 2721 INFO ? odoo.modules.loading: loading 66 modules... 
+2025-10-14 08:43:04,491 2721 INFO ? odoo.modules.loading: 66 modules loaded in 1.23s, 0 queries (+0 extra) 
+2025-10-14 08:43:05,010 2721 INFO ? odoo.modules.loading: Modules loaded. 
+2025-10-14 08:43:05,023 2721 INFO ? odoo.modules.registry: Registry loaded in 1.856s 
+2025-10-14 08:43:05,026 2721 INFO odoo_db odoo.addons.base.models.ir_http: Generating routing map for key None 
+2025-10-14 08:43:05,130 2721 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:43:05] "GET /websocket?version=18.0-5 HTTP/1.1" 101 - 21 0.029 1.936
+2025-10-14 08:43:05,153 2721 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:43:05] "POST /bus/has_missed_notifications HTTP/1.1" 200 - 2 0.003 0.009
+2025-10-14 08:43:05,533 2721 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2025-10-14 08:43:06,974 2721 INFO odoo_db odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_install on ['Odoo rest API'] to user admin #2 via 127.0.0.1 
+2025-10-14 08:43:06,974 2721 INFO odoo_db odoo.addons.base.models.ir_module: User #2 triggered module installation 
+2025-10-14 08:43:06,976 2721 INFO odoo_db odoo.addons.base.models.ir_module: ALLOW access to module.button_install on ['Odoo rest API'] to user admin #2 via 127.0.0.1 
+2025-10-14 08:43:07,494 2721 INFO odoo_db odoo.modules.loading: loading 1 modules... 
+2025-10-14 08:43:07,517 2721 INFO odoo_db odoo.modules.loading: 1 modules loaded in 0.02s, 0 queries (+0 extra) 
+2025-10-14 08:43:07,715 2721 INFO odoo_db odoo.modules.loading: updating modules list 
+2025-10-14 08:43:07,719 2721 INFO odoo_db odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 127.0.0.1 
+2025-10-14 08:43:10,181 2721 INFO odoo_db odoo.modules.loading: loading 66 modules... 
+2025-10-14 08:43:10,341 2721 INFO odoo_db odoo.modules.loading: 66 modules loaded in 0.16s, 0 queries (+0 extra) 
+2025-10-14 08:43:10,346 2721 INFO odoo_db odoo.modules.loading: loading 67 modules... 
+2025-10-14 08:43:10,346 2721 INFO odoo_db odoo.modules.loading: Loading module rest_api_odoo (15/67) 
+2025-10-14 08:43:10,855 2721 INFO odoo_db odoo.modules.registry: module rest_api_odoo: creating or updating database tables 
+2025-10-14 08:43:11,373 2721 INFO odoo_db odoo.modules.loading: loading rest_api_odoo/security/ir.model.access.csv 
+2025-10-14 08:43:11,386 2721 WARNING odoo_db odoo.addons.base.models.ir_model: Rule access.connection.api.user has no group, this is a deprecated feature. Every access-granting rule should specify a group. 
+2025-10-14 08:43:11,402 2721 INFO odoo_db odoo.modules.loading: loading rest_api_odoo/views/res_users_views.xml 
+2025-10-14 08:43:11,786 2721 INFO odoo_db odoo.modules.loading: loading rest_api_odoo/views/connection_api_views.xml 
+2025-10-14 08:43:12,028 2721 INFO odoo_db odoo.modules.loading: Module rest_api_odoo loaded in 1.68s, 167 queries (+167 other) 
+2025-10-14 08:43:12,028 2721 INFO odoo_db odoo.modules.loading: 67 modules loaded in 1.68s, 167 queries (+167 extra) 
+2025-10-14 08:43:14,492 2721 INFO odoo_db odoo.modules.loading: Modules loaded. 
+2025-10-14 08:43:14,508 2721 INFO odoo_db odoo.modules.registry: Registry changed, signaling through the database 
+2025-10-14 08:43:14,511 2721 INFO odoo_db odoo.modules.registry: Registry loaded in 7.060s 
+2025-10-14 08:43:14,511 2721 INFO odoo_db odoo.addons.base.models.ir_module: getting next ir.actions.todo() 
+2025-10-14 08:43:14,520 2721 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:43:14] "POST /web/dataset/call_button/ir.module.module/button_immediate_install HTTP/1.1" 200 - 3095 2.492 5.351
+2025-10-14 08:43:14,543 2721 INFO odoo_db odoo.addons.base.models.ir_http: Generating routing map for key None 
+2025-10-14 08:43:15,043 2721 WARNING odoo_db odoo.modules.module: Missing `license` key in manifest for 'irf_customers', defaulting to LGPL-3 
+2025-10-14 08:43:15,892 2721 WARNING odoo_db odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc="title or 'Odoo'" in template 180. Replace by @t-out 
+2025-10-14 08:43:15,895 2721 WARNING odoo_db odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='request.csrf_token(None)' in template 180. Replace by @t-out 
+2025-10-14 08:43:15,896 2721 WARNING odoo_db odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='debug' in template 180. Replace by @t-out 
+2025-10-14 08:43:15,907 2721 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:43:15] "GET /odoo HTTP/1.1" 200 - 102 0.089 1.279
+2025-10-14 08:43:16,451 2721 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:43:16] "GET /web/webclient/load_menus/864c8179545b45bfa08b6f9d75589c096545551aa00aa1de5ca9b43706e484d5 HTTP/1.1" 200 - 174 0.169 0.322
+2025-10-14 08:43:16,563 2721 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:43:16] "GET /bus/websocket_worker_bundle?v=18.0-5 HTTP/1.1" 304 - 4 0.016 0.041
+2025-10-14 08:43:16,599 2721 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:43:16] "POST /web/dataset/call_kw/res.users/search_read HTTP/1.1" 200 - 10 0.038 0.049
+2025-10-14 08:43:16,601 2721 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:43:16] "GET /websocket?version=18.0-5 HTTP/1.1" 101 - 1 0.003 0.021
+2025-10-14 08:43:16,752 2721 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:43:16] "POST /mail/data HTTP/1.1" 200 - 63 0.119 0.139
+2025-10-14 08:43:16,782 2721 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:43:16] "POST /web/action/load HTTP/1.1" 200 - 9 0.037 0.048
+2025-10-14 08:43:16,804 2721 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:43:16] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 20 0.052 0.056
+2025-10-14 08:43:16,896 2721 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:43:16] "POST /web/dataset/call_kw/estate.property/get_views HTTP/1.1" 200 - 22 0.022 0.059
+2025-10-14 08:43:16,932 2721 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:43:16] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 1 0.001 0.011
+2025-10-14 08:43:16,939 2721 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:43:16] "POST /web/dataset/call_kw/estate.property/web_search_read HTTP/1.1" 200 - 4 0.009 0.013
+2025-10-14 08:43:17,003 2721 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:43:17] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.001 0.008
+2025-10-14 08:43:25,534 2721 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:43:25] "POST /web/action/load HTTP/1.1" 200 - 9 0.009 0.026
+2025-10-14 08:43:25,613 2721 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:43:25] "POST /web/dataset/call_kw/connection.api/get_views HTTP/1.1" 200 - 22 0.018 0.050
+2025-10-14 08:43:25,639 2721 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:43:25] "POST /web/dataset/call_kw/connection.api/web_search_read HTTP/1.1" 200 - 3 0.003 0.010
+2025-10-14 08:43:25,674 2721 INFO ? werkzeug: 127.0.0.1 - - [14/Oct/2025 08:43:25] "GET /web/static/img/smiling_face.svg HTTP/1.1" 200 - 0 0.000 0.004
+2025-10-14 08:43:27,724 2721 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:43:27] "POST /web/dataset/call_kw/connection.api/onchange HTTP/1.1" 200 - 2 0.003 0.011
+2025-10-14 08:43:29,846 2721 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:43:29] "POST /web/dataset/call_kw/ir.model/name_search HTTP/1.1" 200 - 3 0.003 0.011
+2025-10-14 08:43:39,215 2721 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:43:39] "POST /web/dataset/call_kw/ir.model/name_search HTTP/1.1" 200 - 3 0.003 0.011
+2025-10-14 08:43:41,678 2721 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:43:41] "POST /web/dataset/call_kw/ir.model/get_views HTTP/1.1" 200 - 24 0.019 0.058
+2025-10-14 08:43:41,715 2721 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:43:41] "POST /web/dataset/call_kw/ir.model/web_search_read HTTP/1.1" 200 - 6 0.006 0.020
+2025-10-14 08:43:49,048 2721 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:43:49] "POST /web/dataset/call_kw/ir.model/web_search_read HTTP/1.1" 200 - 4 0.006 0.018
+2025-10-14 08:43:52,654 2721 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:43:52] "POST /web/dataset/call_kw/ir.model/web_search_read HTTP/1.1" 200 - 6 0.007 0.021
+2025-10-14 08:43:55,614 2721 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:43:55] "POST /web/dataset/call_kw/ir.model/web_search_read HTTP/1.1" 200 - 3 0.005 0.010
+2025-10-14 08:43:58,273 2721 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:43:58] "POST /web/dataset/call_kw/ir.model/web_search_read HTTP/1.1" 200 - 6 0.007 0.020
+2025-10-14 08:44:08,674 2721 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:44:08] "POST /web/dataset/call_kw/ir.model/web_search_read HTTP/1.1" 200 - 4 0.007 0.011
+2025-10-14 08:44:13,618 2721 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:44:13] "POST /web/dataset/call_kw/ir.model/web_read HTTP/1.1" 200 - 3 0.003 0.010
+2025-10-14 08:44:20,182 2721 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:44:20] "POST /web/dataset/call_kw/connection.api/web_save HTTP/1.1" 200 - 7 0.011 0.027
+2025-10-14 08:44:24,150 2721 WARNING odoo_db odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc="title or 'Odoo'" in template 180. Replace by @t-out 
+2025-10-14 08:44:24,153 2721 WARNING odoo_db odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='request.csrf_token(None)' in template 180. Replace by @t-out 
+2025-10-14 08:44:24,154 2721 WARNING odoo_db odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='debug' in template 180. Replace by @t-out 
+2025-10-14 08:44:24,163 2721 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:44:24] "GET /odoo/action-434/1 HTTP/1.1" 200 - 54 0.042 0.747
+2025-10-14 08:44:24,807 2721 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:44:24] "GET /bus/websocket_worker_bundle?v=18.0-5 HTTP/1.1" 304 - 4 0.019 0.022
+2025-10-14 08:44:24,829 2721 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:44:24] "POST /web/dataset/call_kw/res.users/search_read HTTP/1.1" 200 - 10 0.028 0.030
+2025-10-14 08:44:24,843 2721 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:44:24] "GET /websocket?version=18.0-5 HTTP/1.1" 101 - 1 0.004 0.020
+2025-10-14 08:44:25,032 2721 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:44:25] "POST /web/action/load HTTP/1.1" 200 - 9 0.046 0.035
+2025-10-14 08:44:25,034 2721 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:44:25] "POST /mail/data HTTP/1.1" 200 - 58 0.122 0.138
+2025-10-14 08:44:25,084 2721 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:44:25] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 20 0.067 0.067
+2025-10-14 08:44:25,119 2721 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:44:25] "POST /web/dataset/call_kw/connection.api/get_views HTTP/1.1" 200 - 15 0.018 0.056
+2025-10-14 08:44:25,153 2721 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:44:25] "POST /web/dataset/call_kw/connection.api/web_read HTTP/1.1" 200 - 5 0.005 0.012
+2025-10-14 08:44:25,206 2721 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:44:25] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.001 0.008
+2025-10-14 08:44:27,594 2721 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:44:27] "POST /web/dataset/call_kw/connection.api/onchange HTTP/1.1" 200 - 1 0.001 0.010
+2025-10-14 08:44:28,944 2721 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:44:28] "POST /web/dataset/call_kw/ir.model/name_search HTTP/1.1" 200 - 3 0.004 0.012
+2025-10-14 08:44:31,803 2721 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:44:31] "POST /web/dataset/call_kw/ir.model/name_search HTTP/1.1" 200 - 3 0.005 0.011
+2025-10-14 08:44:32,391 2721 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:44:32] "POST /web/dataset/call_kw/ir.model/name_search HTTP/1.1" 200 - 3 0.004 0.012
+2025-10-14 08:44:32,644 2721 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:44:32] "POST /web/dataset/call_kw/ir.model/name_search HTTP/1.1" 200 - 3 0.004 0.011
+2025-10-14 08:44:33,500 2721 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:44:33] "POST /web/dataset/call_kw/ir.model/name_search HTTP/1.1" 200 - 3 0.004 0.011
+2025-10-14 08:44:39,665 2721 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:44:39] "POST /web/dataset/call_kw/connection.api/web_save HTTP/1.1" 200 - 7 0.007 0.016
+2025-10-14 08:44:42,789 2721 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:44:42] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 1 0.003 0.020
+2025-10-14 08:44:42,801 2721 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:44:42] "POST /web/dataset/call_kw/connection.api/web_search_read HTTP/1.1" 200 - 5 0.015 0.023
+2025-10-14 08:44:42,810 2721 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:44:42] "POST /web/dataset/call_kw/connection.api/web_search_read HTTP/1.1" 200 - 5 0.015 0.021
+2025-10-14 08:44:55,421 2721 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:44:55] "GET /estate/estate HTTP/1.1" 200 - 2 0.003 0.012
+2025-10-14 08:44:59,193 2721 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) starting 
+2025-10-14 08:44:59,533 2721 INFO odoo_db odoo.addons.base.models.ir_attachment: filestore gc 1 checked, 0 removed 
+2025-10-14 08:44:59,813 2721 INFO odoo_db odoo.addons.base.models.res_users: GC'd 3 user log entries 
+2025-10-14 08:44:59,845 2721 INFO odoo_db odoo.addons.base.models.res_users: GC 'res.users.apikeys' delete 0 entries 
+2025-10-14 08:44:59,860 2721 INFO odoo_db odoo.addons.base.models.res_device: GC device logs delete 2 entries 
+2025-10-14 08:44:59,868 2721 INFO odoo_db odoo.addons.base.models.res_device: GC device logs delete 0 entries 
+2025-10-14 08:44:59,929 2721 INFO odoo_db odoo.addons.base.models.res_users: GC 'auth_totp.device' delete 0 entries 
+2025-10-14 08:45:00,413 2721 INFO odoo_db odoo.addons.sms.models.sms_sms: GC'd 0 sms marked for deletion 
+2025-10-14 08:45:00,764 2721 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) done in 1.571s 
+2025-10-14 08:45:00,775 2721 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) processed 0 records, 0 records remaining 
+2025-10-14 08:45:00,787 2721 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) completed 
+2025-10-14 08:45:14,187 2721 INFO odoo_db odoo.addons.base.models.res_users: Login successful for db:odoo_db login:admin from 127.0.0.1 
+2025-10-14 08:45:14,217 2721 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:45:14] "GET /send_request?model=res.country&id=8 HTTP/1.1" 200 - 21 0.019 0.732
+2025-10-14 08:45:26,297 2721 INFO odoo_db odoo.addons.base.models.res_users: Login successful for db:odoo_db login:admin from 127.0.0.1 
+2025-10-14 08:45:26,348 2721 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:45:26] "GET /odoo_connect HTTP/1.1" 200 - 20 0.023 0.746
+2025-10-14 08:45:44,299 2721 INFO odoo_db odoo.addons.base.models.res_device: User 2 inserts device log (LtvqMQVFrIHvUEs3USMTYKf7Q7riZtGZw2rxLtCtdi) 
+2025-10-14 08:45:45,144 2721 INFO odoo_db odoo.addons.base.models.res_users: Login successful for db:odoo_db login:admin from 127.0.0.1 
+2025-10-14 08:45:45,186 2721 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:45:45] "GET /send_request?model=res.country&id=8 HTTP/1.1" 200 - 24 0.030 0.869
+2025-10-14 08:45:57,449 2721 INFO odoo_db odoo.addons.base.models.res_users: Login successful for db:odoo_db login:admin from 127.0.0.1 
+2025-10-14 08:45:57,497 2721 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:45:57] "GET /send_request?model=res.country&id=8 HTTP/1.1" 200 - 24 0.022 0.744
+2025-10-14 08:46:45,668 2721 ERROR odoo_db odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/home/irfanpa/dev/odoo/odoo/http.py", line 2554, in __call__
+    response = request._serve_db()
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/irfanpa/dev/odoo/odoo/http.py", line 2081, in _serve_db
+    return self._transactioning(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/irfanpa/dev/odoo/odoo/http.py", line 2144, in _transactioning
+    return service_model.retrying(func, env=self.env)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/irfanpa/dev/odoo/odoo/service/model.py", line 156, in retrying
+    result = func()
+             ^^^^^^
+  File "/home/irfanpa/dev/odoo/odoo/http.py", line 2111, in _serve_ir_http
+    response = self.dispatcher.dispatch(rule.endpoint, args)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/irfanpa/dev/odoo/odoo/http.py", line 2272, in dispatch
+    return self.request.registry['ir.http']._dispatch(endpoint)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/irfanpa/dev/odoo/odoo/addons/base/models/ir_http.py", line 333, in _dispatch
+    result = endpoint(**request.params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/irfanpa/dev/odoo/odoo/http.py", line 754, in route_wrapper
+    result = endpoint(self, *args, **params_ok)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/irfanpa/dev/odoo/custom_addons/estate/controllers/controllers.py", line 14, in list
+    'objects': http.request.env['estate.estate'].search([]),
+               ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/irfanpa/dev/odoo/odoo/api.py", line 614, in __getitem__
+    return self.registry[model_name](self, (), ())
+           ~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/home/irfanpa/dev/odoo/odoo/modules/registry.py", line 244, in __getitem__
+    return self.models[model_name]
+           ~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'estate.estate'
+2025-10-14 08:46:45,680 2721 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:46:45] "GET /estate/estate/objects HTTP/1.1" 500 - 1 0.001 0.019
+2025-10-14 08:47:19,977 2721 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:47:19] "GET /estate/estate/ HTTP/1.1" 200 - 1 0.001 0.007
+2025-10-14 08:47:23,560 2721 ERROR odoo_db odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/home/irfanpa/dev/odoo/odoo/http.py", line 2554, in __call__
+    response = request._serve_db()
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/irfanpa/dev/odoo/odoo/http.py", line 2081, in _serve_db
+    return self._transactioning(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/irfanpa/dev/odoo/odoo/http.py", line 2144, in _transactioning
+    return service_model.retrying(func, env=self.env)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/irfanpa/dev/odoo/odoo/service/model.py", line 156, in retrying
+    result = func()
+             ^^^^^^
+  File "/home/irfanpa/dev/odoo/odoo/http.py", line 2111, in _serve_ir_http
+    response = self.dispatcher.dispatch(rule.endpoint, args)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/irfanpa/dev/odoo/odoo/http.py", line 2272, in dispatch
+    return self.request.registry['ir.http']._dispatch(endpoint)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/irfanpa/dev/odoo/odoo/addons/base/models/ir_http.py", line 333, in _dispatch
+    result = endpoint(**request.params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/irfanpa/dev/odoo/odoo/http.py", line 754, in route_wrapper
+    result = endpoint(self, *args, **params_ok)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/irfanpa/dev/odoo/custom_addons/estate/controllers/controllers.py", line 14, in list
+    'objects': http.request.env['estate.estate'].search([]),
+               ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/irfanpa/dev/odoo/odoo/api.py", line 614, in __getitem__
+    return self.registry[model_name](self, (), ())
+           ~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/home/irfanpa/dev/odoo/odoo/modules/registry.py", line 244, in __getitem__
+    return self.models[model_name]
+           ~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'estate.estate'
+2025-10-14 08:47:23,562 2721 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:47:23] "GET /estate/estate/objects HTTP/1.1" 500 - 1 0.001 0.010
+2025-10-14 08:47:33,686 3787 INFO ? odoo: Odoo version 18.0 
+2025-10-14 08:47:33,687 3787 INFO ? odoo: Using configuration file at /home/irfanpa/dev/odoo/odoo.conf 
+2025-10-14 08:47:33,687 3787 INFO ? odoo: addons paths: ['/home/irfanpa/dev/odoo/odoo/addons', '/home/irfanpa/.local/share/Odoo/addons/18.0', '/home/irfanpa/dev/odoo/addons', '/home/irfanpa/dev/odoo/custom_addons'] 
+2025-10-14 08:47:33,687 3787 INFO ? odoo: database: odoo@127.0.0.1:5436 
+2025-10-14 08:47:33,930 3787 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/bin/wkhtmltopdf 
+2025-10-14 08:47:33,957 3787 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltoimage binary at /usr/bin/wkhtmltoimage 
+2025-10-14 08:47:34,321 3787 WARNING ? odoo.service.server: 'inotify' module not installed. Code autoreload feature is disabled 
+2025-10-14 08:47:34,322 3787 INFO ? odoo.service.server: HTTP service (werkzeug) running on IRFAN.localdomain:8018 
+2025-10-14 08:47:34,467 3787 INFO ? odoo.modules.loading: loading 1 modules... 
+2025-10-14 08:47:34,496 3787 INFO ? odoo.modules.loading: 1 modules loaded in 0.03s, 0 queries (+0 extra) 
+2025-10-14 08:47:34,525 3787 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'irf_customers', defaulting to LGPL-3 
+2025-10-14 08:47:34,545 3787 INFO ? odoo.modules.loading: loading 67 modules... 
+2025-10-14 08:47:35,639 3787 INFO ? odoo.modules.loading: 67 modules loaded in 1.09s, 0 queries (+0 extra) 
+2025-10-14 08:47:36,150 3787 INFO ? odoo.modules.loading: Modules loaded. 
+2025-10-14 08:47:36,163 3787 INFO ? odoo.modules.registry: Registry loaded in 1.736s 
+2025-10-14 08:47:36,167 3787 INFO odoo_db odoo.addons.base.models.ir_http: Generating routing map for key None 
+2025-10-14 08:47:36,261 3787 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:47:36] "GET /websocket?version=18.0-5 HTTP/1.1" 101 - 21 0.030 1.807
+2025-10-14 08:47:36,307 3787 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:47:36] "POST /bus/has_missed_notifications HTTP/1.1" 200 - 2 0.003 0.008
+2025-10-14 08:47:36,740 3787 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2025-10-14 08:47:43,776 3787 ERROR odoo_db odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/home/irfanpa/dev/odoo/odoo/http.py", line 2554, in __call__
+    response = request._serve_db()
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/irfanpa/dev/odoo/odoo/http.py", line 2081, in _serve_db
+    return self._transactioning(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/irfanpa/dev/odoo/odoo/http.py", line 2144, in _transactioning
+    return service_model.retrying(func, env=self.env)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/irfanpa/dev/odoo/odoo/service/model.py", line 156, in retrying
+    result = func()
+             ^^^^^^
+  File "/home/irfanpa/dev/odoo/odoo/http.py", line 2111, in _serve_ir_http
+    response = self.dispatcher.dispatch(rule.endpoint, args)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/irfanpa/dev/odoo/odoo/http.py", line 2272, in dispatch
+    return self.request.registry['ir.http']._dispatch(endpoint)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/irfanpa/dev/odoo/odoo/addons/base/models/ir_http.py", line 333, in _dispatch
+    result = endpoint(**request.params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/irfanpa/dev/odoo/odoo/http.py", line 754, in route_wrapper
+    result = endpoint(self, *args, **params_ok)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/irfanpa/dev/odoo/custom_addons/estate/controllers/controllers.py", line 14, in list
+    'objects': http.request.env['estate.estate'].search([]),
+               ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/irfanpa/dev/odoo/odoo/api.py", line 614, in __getitem__
+    return self.registry[model_name](self, (), ())
+           ~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/home/irfanpa/dev/odoo/odoo/modules/registry.py", line 244, in __getitem__
+    return self.models[model_name]
+           ~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'estate.estate'
+2025-10-14 08:47:43,781 3787 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:47:43] "GET /estate/estate/objects HTTP/1.1" 500 - 2 0.003 1.252
+2025-10-14 08:49:40,796 4321 INFO ? odoo: Odoo version 18.0 
+2025-10-14 08:49:40,798 4321 INFO ? odoo: Using configuration file at /home/irfanpa/dev/odoo/odoo.conf 
+2025-10-14 08:49:40,798 4321 INFO ? odoo: addons paths: ['/home/irfanpa/dev/odoo/odoo/addons', '/home/irfanpa/.local/share/Odoo/addons/18.0', '/home/irfanpa/dev/odoo/addons', '/home/irfanpa/dev/odoo/custom_addons'] 
+2025-10-14 08:49:40,799 4321 INFO ? odoo: database: odoo@127.0.0.1:5436 
+2025-10-14 08:49:41,019 4321 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/bin/wkhtmltopdf 
+2025-10-14 08:49:41,047 4321 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltoimage binary at /usr/bin/wkhtmltoimage 
+2025-10-14 08:49:41,423 4321 WARNING ? odoo.service.server: 'inotify' module not installed. Code autoreload feature is disabled 
+2025-10-14 08:49:41,424 4321 INFO ? odoo.service.server: HTTP service (werkzeug) running on IRFAN.localdomain:8018 
+2025-10-14 08:49:46,242 4321 INFO ? odoo.modules.loading: loading 1 modules... 
+2025-10-14 08:49:46,263 4321 INFO ? odoo.modules.loading: 1 modules loaded in 0.02s, 0 queries (+0 extra) 
+2025-10-14 08:49:46,285 4321 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'irf_customers', defaulting to LGPL-3 
+2025-10-14 08:49:46,304 4321 INFO ? odoo.modules.loading: loading 67 modules... 
+2025-10-14 08:49:47,372 4321 INFO ? odoo.modules.loading: 67 modules loaded in 1.07s, 0 queries (+0 extra) 
+2025-10-14 08:49:47,877 4321 INFO ? odoo.modules.loading: Modules loaded. 
+2025-10-14 08:49:47,896 4321 INFO ? odoo.modules.registry: Registry loaded in 1.684s 
+2025-10-14 08:49:47,899 4321 INFO odoo_db odoo.addons.base.models.ir_http: Generating routing map for key None 
+2025-10-14 08:49:48,001 4321 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:49:48] "GET /websocket?version=18.0-5 HTTP/1.1" 101 - 21 0.027 1.764
+2025-10-14 08:49:48,041 4321 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:49:48] "POST /bus/has_missed_notifications HTTP/1.1" 200 - 2 0.003 0.009
+2025-10-14 08:49:48,394 4321 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2025-10-14 08:50:06,731 4559 INFO ? odoo: Odoo version 18.0 
+2025-10-14 08:50:06,732 4559 INFO ? odoo: Using configuration file at /home/irfanpa/dev/odoo/odoo.conf 
+2025-10-14 08:50:06,732 4559 INFO ? odoo: addons paths: ['/home/irfanpa/dev/odoo/odoo/addons', '/home/irfanpa/.local/share/Odoo/addons/18.0', '/home/irfanpa/dev/odoo/addons', '/home/irfanpa/dev/odoo/custom_addons'] 
+2025-10-14 08:50:06,732 4559 INFO ? odoo: database: odoo@127.0.0.1:5436 
+2025-10-14 08:50:06,952 4559 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/bin/wkhtmltopdf 
+2025-10-14 08:50:06,980 4559 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltoimage binary at /usr/bin/wkhtmltoimage 
+2025-10-14 08:50:07,341 4559 WARNING ? odoo.service.server: 'inotify' module not installed. Code autoreload feature is disabled 
+2025-10-14 08:50:07,342 4559 INFO ? odoo.service.server: HTTP service (werkzeug) running on IRFAN.localdomain:8018 
+2025-10-14 08:50:08,431 4559 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'irf_customers', defaulting to LGPL-3 
+2025-10-14 08:50:08,461 4559 INFO ? odoo.modules.loading: loading 1 modules... 
+2025-10-14 08:50:08,482 4559 INFO ? odoo.modules.loading: 1 modules loaded in 0.02s, 0 queries (+0 extra) 
+2025-10-14 08:50:08,496 4559 INFO ? odoo.modules.loading: loading 67 modules... 
+2025-10-14 08:50:09,567 4559 INFO ? odoo.modules.loading: 67 modules loaded in 1.07s, 0 queries (+0 extra) 
+2025-10-14 08:50:10,074 4559 INFO ? odoo.modules.loading: Modules loaded. 
+2025-10-14 08:50:10,088 4559 INFO ? odoo.modules.registry: Registry loaded in 1.656s 
+2025-10-14 08:50:10,090 4559 INFO odoo_db odoo.addons.base.models.ir_http: Generating routing map for key None 
+2025-10-14 08:50:10,185 4559 ERROR odoo_db odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/home/irfanpa/dev/odoo/odoo/http.py", line 2554, in __call__
+    response = request._serve_db()
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/irfanpa/dev/odoo/odoo/http.py", line 2081, in _serve_db
+    return self._transactioning(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/irfanpa/dev/odoo/odoo/http.py", line 2144, in _transactioning
+    return service_model.retrying(func, env=self.env)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/irfanpa/dev/odoo/odoo/service/model.py", line 156, in retrying
+    result = func()
+             ^^^^^^
+  File "/home/irfanpa/dev/odoo/odoo/http.py", line 2111, in _serve_ir_http
+    response = self.dispatcher.dispatch(rule.endpoint, args)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/irfanpa/dev/odoo/odoo/http.py", line 2272, in dispatch
+    return self.request.registry['ir.http']._dispatch(endpoint)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/irfanpa/dev/odoo/odoo/addons/base/models/ir_http.py", line 333, in _dispatch
+    result = endpoint(**request.params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/irfanpa/dev/odoo/odoo/http.py", line 754, in route_wrapper
+    result = endpoint(self, *args, **params_ok)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/irfanpa/dev/odoo/custom_addons/estate/controllers/controllers.py", line 14, in list
+    'objects': http.request.env['estate.estate'].sudo().search([]),
+               ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/irfanpa/dev/odoo/odoo/api.py", line 614, in __getitem__
+    return self.registry[model_name](self, (), ())
+           ~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/home/irfanpa/dev/odoo/odoo/modules/registry.py", line 244, in __getitem__
+    return self.models[model_name]
+           ~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'estate.estate'
+2025-10-14 08:50:10,190 4559 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:50:10] "GET /estate/estate/objects HTTP/1.1" 500 - 20 0.025 2.061
+2025-10-14 08:50:13,297 4559 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:50:13] "GET /websocket?version=18.0-5 HTTP/1.1" 101 - 3 0.003 0.011
+2025-10-14 08:50:13,336 4559 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:50:13] "POST /bus/has_missed_notifications HTTP/1.1" 200 - 2 0.003 0.027
+2025-10-14 08:50:13,343 4559 ERROR odoo_db odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/home/irfanpa/dev/odoo/odoo/http.py", line 2554, in __call__
+    response = request._serve_db()
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/irfanpa/dev/odoo/odoo/http.py", line 2081, in _serve_db
+    return self._transactioning(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/irfanpa/dev/odoo/odoo/http.py", line 2144, in _transactioning
+    return service_model.retrying(func, env=self.env)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/irfanpa/dev/odoo/odoo/service/model.py", line 156, in retrying
+    result = func()
+             ^^^^^^
+  File "/home/irfanpa/dev/odoo/odoo/http.py", line 2111, in _serve_ir_http
+    response = self.dispatcher.dispatch(rule.endpoint, args)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/irfanpa/dev/odoo/odoo/http.py", line 2272, in dispatch
+    return self.request.registry['ir.http']._dispatch(endpoint)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/irfanpa/dev/odoo/odoo/addons/base/models/ir_http.py", line 333, in _dispatch
+    result = endpoint(**request.params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/irfanpa/dev/odoo/odoo/http.py", line 754, in route_wrapper
+    result = endpoint(self, *args, **params_ok)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/irfanpa/dev/odoo/custom_addons/estate/controllers/controllers.py", line 14, in list
+    'objects': http.request.env['estate.estate'].sudo().search([]),
+               ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/irfanpa/dev/odoo/odoo/api.py", line 614, in __getitem__
+    return self.registry[model_name](self, (), ())
+           ~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/home/irfanpa/dev/odoo/odoo/modules/registry.py", line 244, in __getitem__
+    return self.models[model_name]
+           ~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'estate.estate'
+2025-10-14 08:50:13,346 4559 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:50:13] "GET /estate/estate/objects HTTP/1.1" 500 - 1 0.002 0.027
+2025-10-14 08:50:13,682 4559 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2025-10-14 08:50:21,144 4698 INFO ? odoo: Odoo version 18.0 
+2025-10-14 08:50:21,145 4698 INFO ? odoo: Using configuration file at /home/irfanpa/dev/odoo/odoo.conf 
+2025-10-14 08:50:21,145 4698 INFO ? odoo: addons paths: ['/home/irfanpa/dev/odoo/odoo/addons', '/home/irfanpa/.local/share/Odoo/addons/18.0', '/home/irfanpa/dev/odoo/addons', '/home/irfanpa/dev/odoo/custom_addons'] 
+2025-10-14 08:50:21,145 4698 INFO ? odoo: database: odoo@127.0.0.1:5436 
+2025-10-14 08:50:21,366 4698 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/bin/wkhtmltopdf 
+2025-10-14 08:50:21,394 4698 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltoimage binary at /usr/bin/wkhtmltoimage 
+2025-10-14 08:50:21,743 4698 WARNING ? odoo.service.server: 'inotify' module not installed. Code autoreload feature is disabled 
+2025-10-14 08:50:21,744 4698 INFO ? odoo.service.server: HTTP service (werkzeug) running on IRFAN.localdomain:8018 
+2025-10-14 08:50:26,028 4698 INFO ? odoo.modules.loading: loading 1 modules... 
+2025-10-14 08:50:26,051 4698 INFO ? odoo.modules.loading: 1 modules loaded in 0.02s, 0 queries (+0 extra) 
+2025-10-14 08:50:26,073 4698 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'irf_customers', defaulting to LGPL-3 
+2025-10-14 08:50:26,092 4698 INFO ? odoo.modules.loading: loading 67 modules... 
+2025-10-14 08:50:27,495 4698 INFO ? odoo.modules.loading: 67 modules loaded in 1.40s, 0 queries (+0 extra) 
+2025-10-14 08:50:28,066 4698 INFO ? odoo.modules.loading: Modules loaded. 
+2025-10-14 08:50:28,081 4698 INFO ? odoo.modules.registry: Registry loaded in 2.089s 
+2025-10-14 08:50:28,085 4698 INFO odoo_db odoo.addons.base.models.ir_http: Generating routing map for key None 
+2025-10-14 08:50:28,187 4698 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:50:28] "GET /websocket?version=18.0-5 HTTP/1.1" 101 - 21 0.033 2.163
+2025-10-14 08:50:28,220 4698 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:50:28] "POST /bus/has_missed_notifications HTTP/1.1" 200 - 2 0.004 0.013
+2025-10-14 08:50:28,341 4698 ERROR odoo_db odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/home/irfanpa/dev/odoo/odoo/http.py", line 2554, in __call__
+    response = request._serve_db()
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/irfanpa/dev/odoo/odoo/http.py", line 2081, in _serve_db
+    return self._transactioning(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/irfanpa/dev/odoo/odoo/http.py", line 2144, in _transactioning
+    return service_model.retrying(func, env=self.env)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/irfanpa/dev/odoo/odoo/service/model.py", line 156, in retrying
+    result = func()
+             ^^^^^^
+  File "/home/irfanpa/dev/odoo/odoo/http.py", line 2111, in _serve_ir_http
+    response = self.dispatcher.dispatch(rule.endpoint, args)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/irfanpa/dev/odoo/odoo/http.py", line 2272, in dispatch
+    return self.request.registry['ir.http']._dispatch(endpoint)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/irfanpa/dev/odoo/odoo/addons/base/models/ir_http.py", line 333, in _dispatch
+    result = endpoint(**request.params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/irfanpa/dev/odoo/odoo/http.py", line 754, in route_wrapper
+    result = endpoint(self, *args, **params_ok)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/irfanpa/dev/odoo/custom_addons/estate/controllers/controllers.py", line 14, in list
+    'objects': http.request.env['estate.estate'].sudo().search([]),
+               ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/irfanpa/dev/odoo/odoo/api.py", line 614, in __getitem__
+    return self.registry[model_name](self, (), ())
+           ~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/home/irfanpa/dev/odoo/odoo/modules/registry.py", line 244, in __getitem__
+    return self.models[model_name]
+           ~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'estate.estate'
+2025-10-14 08:50:28,346 4698 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:50:28] "GET /estate/estate/objects HTTP/1.1" 500 - 2 0.003 1.379
+2025-10-14 08:50:28,612 4698 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2025-10-14 08:52:19,000 5181 INFO ? odoo: Odoo version 18.0 
+2025-10-14 08:52:19,001 5181 INFO ? odoo: Using configuration file at /home/irfanpa/dev/odoo/odoo.conf 
+2025-10-14 08:52:19,001 5181 INFO ? odoo: addons paths: ['/home/irfanpa/dev/odoo/odoo/addons', '/home/irfanpa/.local/share/Odoo/addons/18.0', '/home/irfanpa/dev/odoo/addons', '/home/irfanpa/dev/odoo/custom_addons'] 
+2025-10-14 08:52:19,001 5181 INFO ? odoo: database: odoo@127.0.0.1:5436 
+2025-10-14 08:52:19,180 5181 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/bin/wkhtmltopdf 
+2025-10-14 08:52:19,294 5181 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltoimage binary at /usr/bin/wkhtmltoimage 
+2025-10-14 08:52:19,616 5181 WARNING ? odoo.service.server: 'inotify' module not installed. Code autoreload feature is disabled 
+2025-10-14 08:52:19,617 5181 INFO ? odoo.service.server: HTTP service (werkzeug) running on IRFAN.localdomain:8018 
+2025-10-14 08:52:21,479 5181 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'irf_customers', defaulting to LGPL-3 
+2025-10-14 08:52:21,509 5181 INFO ? odoo.modules.loading: loading 1 modules... 
+2025-10-14 08:52:21,524 5181 INFO ? odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2025-10-14 08:52:21,534 5181 INFO ? odoo.modules.loading: loading 67 modules... 
+2025-10-14 08:52:22,401 5181 INFO ? odoo.modules.loading: 67 modules loaded in 0.87s, 0 queries (+0 extra) 
+2025-10-14 08:52:22,790 5181 INFO ? odoo.modules.loading: Modules loaded. 
+2025-10-14 08:52:22,803 5181 INFO ? odoo.modules.registry: Registry loaded in 1.324s 
+2025-10-14 08:52:22,806 5181 INFO odoo_db odoo.addons.base.models.ir_http: Generating routing map for key None 
+2025-10-14 08:52:25,910 5181 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:52:25] "GET /websocket?version=18.0-5 HTTP/1.1" 101 - 3 0.004 0.020
+2025-10-14 08:52:25,943 5181 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:52:25] "POST /bus/has_missed_notifications HTTP/1.1" 200 - 2 0.002 0.007
+2025-10-14 08:52:26,286 5181 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2025-10-14 08:53:16,277 5181 ERROR odoo_db odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/home/irfanpa/dev/odoo/odoo/http.py", line 2554, in __call__
+    response = request._serve_db()
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/irfanpa/dev/odoo/odoo/http.py", line 2081, in _serve_db
+    return self._transactioning(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/irfanpa/dev/odoo/odoo/http.py", line 2144, in _transactioning
+    return service_model.retrying(func, env=self.env)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/irfanpa/dev/odoo/odoo/service/model.py", line 156, in retrying
+    result = func()
+             ^^^^^^
+  File "/home/irfanpa/dev/odoo/odoo/http.py", line 2111, in _serve_ir_http
+    response = self.dispatcher.dispatch(rule.endpoint, args)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/irfanpa/dev/odoo/odoo/http.py", line 2272, in dispatch
+    return self.request.registry['ir.http']._dispatch(endpoint)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/irfanpa/dev/odoo/odoo/addons/base/models/ir_http.py", line 333, in _dispatch
+    result = endpoint(**request.params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/irfanpa/dev/odoo/odoo/http.py", line 754, in route_wrapper
+    result = endpoint(self, *args, **params_ok)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/irfanpa/dev/odoo/custom_addons/estate/controllers/controllers.py", line 16, in list
+    'objects': http.request.env['estate.estate'].sudo().search([]),
+               ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/irfanpa/dev/odoo/odoo/api.py", line 614, in __getitem__
+    return self.registry[model_name](self, (), ())
+           ~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/home/irfanpa/dev/odoo/odoo/modules/registry.py", line 244, in __getitem__
+    return self.models[model_name]
+           ~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'estate.estate'
+2025-10-14 08:53:16,285 5181 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:53:16] "GET /estate/estate/objects HTTP/1.1" 500 - 20 0.029 55.057
+2025-10-14 08:53:28,747 5643 INFO ? odoo: Odoo version 18.0 
+2025-10-14 08:53:28,748 5643 INFO ? odoo: Using configuration file at /home/irfanpa/dev/odoo/odoo.conf 
+2025-10-14 08:53:28,748 5643 INFO ? odoo: addons paths: ['/home/irfanpa/dev/odoo/odoo/addons', '/home/irfanpa/.local/share/Odoo/addons/18.0', '/home/irfanpa/dev/odoo/addons', '/home/irfanpa/dev/odoo/custom_addons'] 
+2025-10-14 08:53:28,748 5643 INFO ? odoo: database: odoo@127.0.0.1:5436 
+2025-10-14 08:53:28,912 5643 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/bin/wkhtmltopdf 
+2025-10-14 08:53:28,931 5643 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltoimage binary at /usr/bin/wkhtmltoimage 
+2025-10-14 08:53:29,154 5643 WARNING ? odoo.service.server: 'inotify' module not installed. Code autoreload feature is disabled 
+2025-10-14 08:53:29,155 5643 INFO ? odoo.service.server: HTTP service (werkzeug) running on IRFAN.localdomain:8018 
+2025-10-14 08:53:29,255 5643 INFO ? odoo.modules.loading: loading 1 modules... 
+2025-10-14 08:53:29,271 5643 INFO ? odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2025-10-14 08:53:29,288 5643 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'irf_customers', defaulting to LGPL-3 
+2025-10-14 08:53:29,302 5643 INFO ? odoo.modules.loading: loading 67 modules... 
+2025-10-14 08:53:29,990 5643 INFO ? odoo.modules.loading: 67 modules loaded in 0.69s, 0 queries (+0 extra) 
+2025-10-14 08:53:30,300 5643 INFO ? odoo.modules.loading: Modules loaded. 
+2025-10-14 08:53:30,311 5643 INFO ? odoo.modules.registry: Registry loaded in 1.078s 
+2025-10-14 08:53:30,312 5643 INFO odoo_db odoo.addons.base.models.ir_http: Generating routing map for key None 
+2025-10-14 08:53:30,372 5643 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:53:30] "GET /websocket?version=18.0-5 HTTP/1.1" 101 - 21 0.019 1.122
+2025-10-14 08:53:30,401 5643 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:53:30] "POST /bus/has_missed_notifications HTTP/1.1" 200 - 2 0.002 0.008
+2025-10-14 08:53:30,761 5643 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2025-10-14 08:53:56,805 5643 ERROR odoo_db odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/home/irfanpa/dev/odoo/odoo/http.py", line 2554, in __call__
+    response = request._serve_db()
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/irfanpa/dev/odoo/odoo/http.py", line 2081, in _serve_db
+    return self._transactioning(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/irfanpa/dev/odoo/odoo/http.py", line 2144, in _transactioning
+    return service_model.retrying(func, env=self.env)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/irfanpa/dev/odoo/odoo/service/model.py", line 156, in retrying
+    result = func()
+             ^^^^^^
+  File "/home/irfanpa/dev/odoo/odoo/http.py", line 2111, in _serve_ir_http
+    response = self.dispatcher.dispatch(rule.endpoint, args)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/irfanpa/dev/odoo/odoo/http.py", line 2272, in dispatch
+    return self.request.registry['ir.http']._dispatch(endpoint)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/irfanpa/dev/odoo/odoo/addons/base/models/ir_http.py", line 333, in _dispatch
+    result = endpoint(**request.params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/irfanpa/dev/odoo/odoo/http.py", line 754, in route_wrapper
+    result = endpoint(self, *args, **params_ok)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/irfanpa/dev/odoo/custom_addons/estate/controllers/controllers.py", line 16, in list
+    'objects': http.request.env['estate.estate'].sudo().search([]),
+               ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/irfanpa/dev/odoo/odoo/api.py", line 614, in __getitem__
+    return self.registry[model_name](self, (), ())
+           ~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/home/irfanpa/dev/odoo/odoo/modules/registry.py", line 244, in __getitem__
+    return self.models[model_name]
+           ~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'estate.estate'
+2025-10-14 08:53:56,808 5643 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:53:56] "GET /estate/estate/objects HTTP/1.1" 500 - 2 0.002 19.534
+2025-10-14 08:54:27,656 6101 INFO ? odoo: Odoo version 18.0 
+2025-10-14 08:54:27,656 6101 INFO ? odoo: Using configuration file at /home/irfanpa/dev/odoo/odoo.conf 
+2025-10-14 08:54:27,657 6101 INFO ? odoo: addons paths: ['/home/irfanpa/dev/odoo/odoo/addons', '/home/irfanpa/.local/share/Odoo/addons/18.0', '/home/irfanpa/dev/odoo/addons', '/home/irfanpa/dev/odoo/custom_addons'] 
+2025-10-14 08:54:27,657 6101 INFO ? odoo: database: odoo@127.0.0.1:5436 
+2025-10-14 08:54:27,819 6101 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/bin/wkhtmltopdf 
+2025-10-14 08:54:27,842 6101 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltoimage binary at /usr/bin/wkhtmltoimage 
+2025-10-14 08:54:28,152 6101 WARNING ? odoo.service.server: 'inotify' module not installed. Code autoreload feature is disabled 
+2025-10-14 08:54:28,153 6101 INFO ? odoo.service.server: HTTP service (werkzeug) running on IRFAN.localdomain:8018 
+2025-10-14 08:54:28,327 6101 INFO ? odoo.modules.loading: loading 1 modules... 
+2025-10-14 08:54:28,345 6101 INFO ? odoo.modules.loading: 1 modules loaded in 0.02s, 0 queries (+0 extra) 
+2025-10-14 08:54:28,363 6101 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'irf_customers', defaulting to LGPL-3 
+2025-10-14 08:54:28,376 6101 INFO ? odoo.modules.loading: loading 67 modules... 
+2025-10-14 08:54:29,162 6101 INFO ? odoo.modules.loading: 67 modules loaded in 0.79s, 0 queries (+0 extra) 
+2025-10-14 08:54:29,547 6101 INFO ? odoo.modules.loading: Modules loaded. 
+2025-10-14 08:54:29,557 6101 INFO ? odoo.modules.registry: Registry loaded in 1.256s 
+2025-10-14 08:54:29,559 6101 INFO odoo_db odoo.addons.base.models.ir_http: Generating routing map for key None 
+2025-10-14 08:54:29,635 6101 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:54:29] "GET /websocket?version=18.0-5 HTTP/1.1" 101 - 21 0.021 1.315
+2025-10-14 08:54:29,659 6101 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:54:29] "POST /bus/has_missed_notifications HTTP/1.1" 200 - 2 0.001 0.005
+2025-10-14 08:54:30,014 6101 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2025-10-14 08:54:40,617 6101 INFO odoo_db odoo.addons.base.models.res_users: Login successful for db:odoo_db login:admin from 127.0.0.1 
+2025-10-14 08:54:40,661 6101 INFO odoo_db werkzeug: 127.0.0.1 - - [14/Oct/2025 08:54:40] "GET /send_request?model=res.country&id=8 HTTP/1.1" 200 - 32 0.031 0.698
+2025-10-14 08:55:28,276 6101 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) starting 
+2025-10-14 08:55:28,287 6101 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) done in 0.011s 
+2025-10-14 08:55:28,296 6101 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) processed 0 records, 0 records remaining 
+2025-10-14 08:55:28,303 6101 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) completed 
+2025-10-14 08:55:28,323 6101 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (15) starting 
+2025-10-14 08:55:28,342 6101 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (15) done in 0.019s 
+2025-10-14 08:55:28,349 6101 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (15) processed 0 records, 0 records remaining 
+2025-10-14 08:55:28,357 6101 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (15) completed 
+2025-10-14 08:55:28,376 6101 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (16) starting 
+2025-10-14 08:55:28,383 6101 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (16) done in 0.007s 
+2025-10-14 08:55:28,390 6101 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (16) processed 0 records, 0 records remaining 
+2025-10-14 08:55:28,397 6101 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (16) completed 
+2025-10-14 08:55:28,416 6101 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'CRM: enrich leads (IAP)' (22) starting 
+2025-10-14 08:55:28,427 6101 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'CRM: enrich leads (IAP)' (22) done in 0.011s 
+2025-10-14 08:55:28,435 6101 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'CRM: enrich leads (IAP)' (22) processed 0 records, 0 records remaining 
+2025-10-14 08:55:28,441 6101 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'CRM: enrich leads (IAP)' (22) completed 
+2025-10-14 08:55:28,469 6101 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) starting 
+2025-10-14 08:55:28,546 6101 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) done in 0.076s 
+2025-10-14 08:55:28,569 6101 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) processed 0 records, 0 records remaining 
+2025-10-14 08:55:28,577 6101 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) completed 
+2025-10-14 08:55:28,633 6101 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (14) starting 
+2025-10-14 08:55:28,640 6101 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (14) done in 0.006s 
+2025-10-14 08:55:28,670 6101 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (14) processed 0 records, 0 records remaining 
+2025-10-14 08:55:28,678 6101 INFO odoo_db odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (14) completed 
