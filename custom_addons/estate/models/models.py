@@ -1,13 +1,13 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
 
-from odoo import fields, models
+from odoo import models, fields, api
 
 class EstateProperties(models.Model):
     _name = "estate.property"
     _description = "Real Estate properties"
     _order = "id"
     _log_access = True  # Enable automatic logging of create/write timestamps and user
+
 
     name = fields.Char(string="Name")
     description = fields.Text(string="Description")
@@ -22,6 +22,21 @@ class EstateProperties(models.Model):
     garden = fields.Boolean(string="Garden")
     garden_area = fields.Integer(string="Garden Area")
     garden_orientation = fields.Char(string="Garden Orientation")
+
+    # address fields
+    street = fields.Char()
+    street2 = fields.Char()
+    zip = fields.Char(change_default=True)
+    city = fields.Char()
+    country_id = fields.Many2one('res.country')
+    state_id = fields.Many2one(
+        "res.country.state", 
+        string='State', 
+        domain="[('country_id', '=?', country_id)]"
+    )
+    country_code = fields.Char(related='country_id.code', string="Country Code")
+    partner_latitude = fields.Float(string='Geo Latitude', digits=(10, 7))
+    partner_longitude = fields.Float(string='Geo Longitude', digits=(10, 7))
 
     create_uid = fields.Many2one('res.users', string="Created by", readonly=True)
     create_date = fields.Datetime(string="Creation Date", readonly=True)
